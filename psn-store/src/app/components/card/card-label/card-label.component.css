@@ -1,0 +1,19 @@
+.wrapper{
+  position: absolute;
+  bottom: 90px;
+  right: 0;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(13, 13, 13, 0.95);
+  border-radius: 5px 0 0 5px;
+  color: rgb(217, 212, 233);
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  padding: 0px 30px;
+}

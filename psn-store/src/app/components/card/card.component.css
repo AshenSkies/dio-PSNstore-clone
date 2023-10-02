@@ -1,0 +1,27 @@
+.container{
+  position: relative;
+  border-radius: 10px;
+  border: 3px solid rgba(62, 67, 87, 0);
+  width: 525px;
+  height: 775px;
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border .4s;
+}
+
+.container:hover{
+  border: 3px solid #6a718a;
+}
+
+.cover{
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transition: transform .8s;
+}
+
+.cover:hover{
+  transform: scale(1.05);
+}
